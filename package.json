@@ -6,8 +6,7 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "bat": "cd ../../ && start.bat"
+    "serve": "vite preview"
   },
   "license": "MIT",
   "devDependencies": {
