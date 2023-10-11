@@ -45,7 +45,7 @@ export default function SignUp() {
                 "email": user().email,
                 "emailVisibility": true,
                 "password": user().password,
-                "passwordConfirm": user().confpass,
+                // "passwordConfirm": user().confpass,
             };
             
             const record = await pb.collection('users').create(data);
