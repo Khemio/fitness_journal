@@ -9,6 +9,7 @@ import Day from './pages/Day';
 import Exercise from './pages/Exercise';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
+import imgUrl from "../assets/test.jpg"
 
 
 const App: Component = () => {

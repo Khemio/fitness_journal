@@ -1,7 +1,9 @@
 import { A } from "@solidjs/router";
+import imgUrl from "../assets/test.jpg"
 
 
 export default function Home() {
+    console.log(imgUrl)
 
     return (
         <div class="h-full w-full my-5 flex flex-col content-between">
@@ -19,7 +21,7 @@ export default function Home() {
                     </div>
 
                     <div class="p-3 w-1/2">
-                        <img src="./assets/test.jpg" alt=""
+                        <img src={imgUrl} alt=""
                             class="border-2 border-blue-400 rounded-md"></img>
                     </div>
 
