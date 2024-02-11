@@ -19,7 +19,7 @@ export default function Home() {
                     </div>
 
                     <div class="p-3 w-1/2">
-                        <img src="./test.jpg" alt=""
+                        <img src="./assets/test.jpg" alt=""
                             class="border-2 border-blue-400 rounded-md"></img>
                     </div>
 
